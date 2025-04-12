@@ -85,9 +85,20 @@
 192.168.255.8/29
 192.168.255.4/30
 
+---
+
+### 2.Практическая часть:
+
+Дано :
+
+7 ненастроенных серверов.
+
+![image](https://github.com/user-attachments/assets/97f219a3-f44c-4f21-bbde-97babc38b587)
 
 
+Применяем плейбук 
 
+https://github.com/spbsupprt/Network-architecture/blob/main/network.yml
 
 
 
