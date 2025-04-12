@@ -108,7 +108,9 @@
 https://github.com/spbsupprt/Network-architecture/blob/main/network.yml
 
 
-![image](https://github.com/user-attachments/assets/fab951de-b778-4f82-be36-4cdff7cfd6ac)
+![image](https://github.com/user-attachments/assets/6d4eef48-2274-4a8e-965b-b39db7398fcd)
+
+
 
 
 Проверка пинга между хостами и разынми подсетями:
