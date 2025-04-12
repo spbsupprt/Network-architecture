@@ -108,6 +108,9 @@
 https://github.com/spbsupprt/Network-architecture/blob/main/network.yml
 
 
+![image](https://github.com/user-attachments/assets/fab951de-b778-4f82-be36-4cdff7cfd6ac)
+
+
 
 
 
