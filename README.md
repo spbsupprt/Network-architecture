@@ -96,6 +96,13 @@
 ![image](https://github.com/user-attachments/assets/97f219a3-f44c-4f21-bbde-97babc38b587)
 
 
+Хотим привести к виду:
+
+![image](https://github.com/user-attachments/assets/496d10a8-673a-4a4d-9a15-ea971548ab42)
+
+
+
+
 Применяем плейбук 
 
 https://github.com/spbsupprt/Network-architecture/blob/main/network.yml
