@@ -91,7 +91,7 @@
 
 Дано :
 
-7 ненастроенных серверов.
+7 ненастроенных серверов ( Vargant не использовался).
 
 ![image](https://github.com/user-attachments/assets/97f219a3-f44c-4f21-bbde-97babc38b587)
 
