@@ -111,15 +111,65 @@ https://github.com/spbsupprt/Network-architecture/blob/main/network.yml
 ![image](https://github.com/user-attachments/assets/fab951de-b778-4f82-be36-4cdff7cfd6ac)
 
 
+Проверка пинга между хостами:
 
 
+```
+root@centralServer:~# ping -c2 192.168.2.130
+PING 192.168.2.130 (192.168.2.130) 56(84) bytes of data.
+64 bytes from 192.168.2.130: icmp_seq=1 ttl=62 time=3.80 ms
+64 bytes from 192.168.2.130: icmp_seq=2 ttl=62 time=3.83 ms
 
+--- 192.168.2.130 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 3.802/3.817/3.832/0.015 ms
 
+root@centralServer:~# ping -c2 192.168.1.2
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+64 bytes from 192.168.1.2: icmp_seq=1 ttl=62 time=1.54 ms
+64 bytes from 192.168.1.2: icmp_seq=2 ttl=62 time=4.13 ms
 
+--- 192.168.1.2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 1.538/2.835/4.133/1.297 ms
 
+root@office1Server:~# ping -c2 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=62 time=3.71 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=62 time=4.12 ms
 
+--- 192.168.0.2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 3.706/3.910/4.115/0.204 ms
 
+root@office1Server:~# ping -c2 192.168.1.2
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+64 bytes from 192.168.1.2: icmp_seq=1 ttl=61 time=2.16 ms
+64 bytes from 192.168.1.2: icmp_seq=2 ttl=61 time=2.76 ms
 
+--- 192.168.1.2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 2.159/2.457/2.756/0.298 ms
+
+root@office2Server:~# ping -c2 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=62 time=3.69 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=62 time=3.91 ms
+
+--- 192.168.0.2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 3.685/3.796/3.908/0.111 ms
+
+root@office2Server:~# ping -c2 192.168.2.130
+PING 192.168.2.130 (192.168.2.130) 56(84) bytes of data.
+64 bytes from 192.168.2.130: icmp_seq=1 ttl=61 time=1.87 ms
+64 bytes from 192.168.2.130: icmp_seq=2 ttl=61 time=5.71 ms
+
+--- 192.168.2.130 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 1.867/3.787/5.708/1.920 ms
+
+```
 
 
 
